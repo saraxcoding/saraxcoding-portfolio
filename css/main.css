@@ -40,10 +40,9 @@ p {
 
 /****** GRID ******/
 
-/* creation of the columns for the entire web page*/
 .full-width {
     margin: 0 auto;
-    max-width: 1200px; /* constrains to a certain width*/
+    max-width: 1200px; 
     overflow: auto;
 }
 
@@ -63,7 +62,7 @@ header {
     background-size: cover;
     background-position: center; 
     height: 800px;
-    padding: 100px; /* adjusted the image so that it sits appropriately on the page */
+    padding: 100px; 
 }
 
 nav {
@@ -75,12 +74,12 @@ nav ul li {
     display: inline-block;
 }
 
-nav ul li a { /* must include the a to have the underline links removed from navigation */
-    background-color: #C98D26 /*#f4f7f4*/;
+nav ul li a { 
+    background-color: #C98D26;
     color: #E9EAEC;
     font-size: 24px;
     margin-right: 30px;
-    padding: 10px; /* created space between each navigation item */
+    padding: 10px;
     text-decoration: none;
     text-transform: lowercase;
 }
@@ -95,10 +94,8 @@ header h1 {
     font-size: 48px;
 }
 
-
 /****** WORK ******/ 
 
-/* set fixed heights for work, about and contact*/
 #my-portfolio {
     height: 1200px;
 }
@@ -134,7 +131,7 @@ header h1 {
 
 #about-me {
     background: #8AB2BE;
-    height: 900px;
+    height: 1000px;
 }
 
 #about-me .full-width {
@@ -149,7 +146,7 @@ header h1 {
 #about-me img {
     width: auto;
     float: left;
-    padding: 0 50px; /* provided spacing between image and list */
+    padding: 0 50px; 
 }
 
 #about-me ul {
@@ -164,6 +161,7 @@ header h1 {
 
 #lets-connect {
     background: #AEC6CF;
+    height: 600px;
 }
 
 #lets-connect .email {
@@ -193,11 +191,11 @@ header h1 {
 }
 
 #lets-connect .email ul {
-    padding-left: 0; /* shifted the email icons to the left*/
+    padding-left: 0; 
 }
 
 #lets-connect .email img {
-    padding: 0 20px; /* seems to only move the gmail icon*/
+    padding: 0 20px; 
 }
 
 #lets-connect .socialmedia img {
